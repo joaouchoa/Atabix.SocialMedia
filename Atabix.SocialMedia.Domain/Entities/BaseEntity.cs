@@ -8,13 +8,13 @@ namespace Atabix.SocialMedia.Domain.Entities
 {
     public abstract class BaseEntity
     {
-        Guid Id { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public bool IsDeletd { get; set; }
+        public Guid Id { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public bool IsDeletd { get; private set; }
 
         public BaseEntity()
         {
-            Id = Guid.NewGuid(); 
+            Id = Guid.NewGuid();  
             CreatedAt = DateTime.Now;
             IsDeletd = false;
         }

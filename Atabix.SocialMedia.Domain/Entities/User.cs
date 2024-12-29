@@ -11,15 +11,15 @@ namespace Atabix.SocialMedia.Domain.Entities
 {
     public class User : AggregateRoot
     {
-        public string FullName { get; set; }
-        public string DisplayName { get; set; }
-        public string? Header { get; set; }
-        public DateTime BirthDate { get; set; }
-        public string? Description { get; set; }
-        public string  Email { get; set; }
-        public EUserStatus Status { get; set; }
-        public LocationInfo? Location { get; set; }
-        public ContactInfo? Contact { get; set; }
+        public string FullName { get; private set; }
+        public string DisplayName { get; private set; }
+        public string? Header { get; private set; }
+        public DateTime BirthDate { get; private set; }
+        public string? Description { get; private set; }
+        public string  Email { get; private set; }
+        public EUserStatus Status { get; private set; }
+        public LocationInfo? Location { get; private set; }
+        public ContactInfo? Contact { get; private set; }
 
         public User(string fullName, string displayName, DateTime birthDate, string email) : base()
         {
