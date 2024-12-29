@@ -5,6 +5,12 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atabix.SocialMedia.API", "Atabix.SocialMedia.API\Atabix.SocialMedia.API.csproj", "{18A9B835-C56B-4A80-82FF-231C91935839}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atabix.SocialMedia.Application", "Atabix.SocialMedia.Application\Atabix.SocialMedia.Application.csproj", "{417C58AD-7838-40A7-A7B6-6429149FE88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atabix.SocialMedia.Infrastructure", "Atabix.SocialMedia.Infrastructure\Atabix.SocialMedia.Infrastructure.csproj", "{D3689DB5-0924-48B6-B33C-FD18B36C82D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atabix.SocialMedia.Domain", "Atabix.SocialMedia.Domain\Atabix.SocialMedia.Domain.csproj", "{65E1EC98-208E-415C-BD52-AD21094B413D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{18A9B835-C56B-4A80-82FF-231C91935839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A9B835-C56B-4A80-82FF-231C91935839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A9B835-C56B-4A80-82FF-231C91935839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417C58AD-7838-40A7-A7B6-6429149FE88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417C58AD-7838-40A7-A7B6-6429149FE88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417C58AD-7838-40A7-A7B6-6429149FE88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417C58AD-7838-40A7-A7B6-6429149FE88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3689DB5-0924-48B6-B33C-FD18B36C82D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3689DB5-0924-48B6-B33C-FD18B36C82D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3689DB5-0924-48B6-B33C-FD18B36C82D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3689DB5-0924-48B6-B33C-FD18B36C82D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E1EC98-208E-415C-BD52-AD21094B413D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E1EC98-208E-415C-BD52-AD21094B413D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E1EC98-208E-415C-BD52-AD21094B413D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E1EC98-208E-415C-BD52-AD21094B413D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
